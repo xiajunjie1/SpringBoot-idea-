@@ -1,0 +1,43 @@
+//package com.maker.springboot;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+
+/**
+ * SpringBoot测试
+ *  在传统的SpringMVC的中，如果想要实现一个与之相同的输出功能，也是可以实现的，
+ *  但是所付出的代价就是繁琐的配置以及一系列配置文件的定义
+ *
+ *  启动SpringBoot程序后，SpringBoot会自动启动Servlet容器，并且配置相应的Spring
+ *  此后便可以在浏览器上面直接访问对应的Controller
+ *
+ * SpringBoot程序注解分析
+ * @Controller,内部包装了一个@Component注解，是在进行包扫描处理的时候用于实现控制层处理类定义的（第一个疑问，没进行包扫描的配置，因为SpringBoot采用的设计思想是“零配置”）
+ * @EnableAutoConfiguration：可以实现扫描包配置，拥有该注解的类，所在的包中所有的类都可以实现自动装配
+ * @RequestMapping：定义方法的访问路径
+ * @ResponseBody:直接进行对象响应（在SpringMVC中，默认的转换组件为Jackson）
+ *
+ * 在实际的项目开发中，一个项目肯定会有多个控制层的类，而且每个类也会有不同的访问路径，这样就会比较繁琐，
+ * 所以此时就必须采用SpringBoot本身的约定，来进行代码结构的优化（父包启动类和子包组件类）
+ * */
+//@Controller//给出的为SpringMVC中注解
+/*
+@RestController//基于Resetful进行处理
+@EnableAutoConfiguration//自动装配处理
+public class First {
+    //控制层处理方法
+    @RequestMapping("/test1")
+    @ResponseBody
+    public String home(){
+        return "SpringBoot Response";
+    }
+
+    public static void main(String[] args){
+        SpringApplication.run(First.class,args);//运行SpringBoot程序
+    }
+}
+*/

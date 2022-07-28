@@ -1,0 +1,21 @@
+/**
+ * 此文件实现所有项目之中依赖库版本的定义
+ *
+ * */
+ext.versions = [    // 定义所有要使用的版本号
+                    springboot:     '2.4.5', // SpringBoot版本号
+                    junit:          '5.7.1',//配置Junit测试工具的版本号
+                    junitplatformlaunch: '1.7.1'//Junit测试工具运行平台版本编号
+]
+ext.libraries = [   // 定义所有的依赖库
+
+                    'spring-boot-gradle-plugin': "org.springframework.boot:spring-boot-gradle-plugin:${versions.springboot}",
+                    //项目用例测试有关依赖
+                    'junit-jupiter-api':"org.junit.jupiter:junit-jupiter-api:${versions.junit}",
+                    'junit-jupiter-engine':"org.junit.jupiter:junit-jupiter-engine:${versions.junit}",
+                    'junit-vintage-engine':"org.junit.vintage:junit-vintage-engine:${versions.junit}",
+                    'junit-platform-launcher':"org.junit.platform:junit-platform-launcher:${versions.junitplatformlaunch}",
+                    'junit-bom':"org.junit:junit-bom:${versions.junit}"
+]
+
+//修改build.gradle配置文件，引入相关的子配置文件

@@ -1,0 +1,6 @@
+SpringBoot特点
+    独立运行的Spring项目：SpringBoot可以以jar包的形式独立运行在拥有JDK的主机上
+    内嵌Web容器：SpringBoot内嵌了Tomcat，Jetty与Undertow容器，这样可以不局限于war包的形式部署
+    简化配置：在实际的开发中，需要编写大量的Maven/Gradle依赖，在SpringBoot中会提供有一系列使用“starter”的依赖配置简化Maven配置文件的定义
+    自动配置Spring：采用合理的项目组织结构可以使Spring的配置注解自动生效
+    减少xml配置：在SpringBoot中依然支持有xml配置，但是也可以利用Bean和自动配置机制减少XML配置文件的定义
