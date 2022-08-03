@@ -8,7 +8,12 @@ version '1.0-SNAPSHOT'
 repositories {
     mavenCentral()
 }
-
+jar{enabled(true)}//允许当前模块打包为“*.jar"的文件
+/*任务禁用*/
+javadocTask{enabled(false)}//不启用javadoc任务
+javadocJar{enabled(false)}//不生成javadoc的“*.jar"文件
+bootJar{enabled(false)}
+/*
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
@@ -16,4 +21,4 @@ dependencies {
 
 test {
     useJUnitPlatform()
-}
+}*/

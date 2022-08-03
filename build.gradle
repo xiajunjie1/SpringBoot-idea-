@@ -1,3 +1,4 @@
+
 buildscript {
                                          //定义脚本使用资源
     apply from: 'dependencies.gradle';//引入所需要的依赖脚本库文件
@@ -8,6 +9,7 @@ buildscript {
     dependencies {
         classpath libraries.'spring-boot-gradle-plugin'
     }
+
 }
 
 
@@ -21,6 +23,7 @@ subprojects {//子模块
     apply plugin: 'java'
     apply plugin:'org.springframework.boot'//引入插件
     apply plugin:'io.spring.dependency-management'//引入插件
+    apply plugin: 'java-library'//使用api依赖需要使用该插件
     sourceCompatibility=project_jdk//本次项目都是基于JDK17
     targetCompatibility=project_jdk
     repositories {  // 配置Gradle仓库
@@ -53,6 +56,9 @@ subprojects {//子模块
         testImplementation(libraries.'junit-jupiter-engine');
         testImplementation(libraries.'junit-vintage-engine');
         testImplementation(libraries.'junit-platform-launcher');
+        //以下为lombok插件的依赖配置
+        compileOnly(libraries.'lombok');//编译生效
+        annotationProcessor(libraries.'lombok');//注解生效，未配置该环境，无法启用
 
     }
     sourceSets {    // 源代码目录配置
@@ -107,12 +113,25 @@ subprojects {//子模块
 project("mircoboot-web"){
     dependencies {
         implementation(project(':mircoboot-common'))
-        implementation('org.springframework.boot:spring-boot-starter-web')
+        //implementation('org.springframework.boot:spring-boot-starter-web')
+        //返回xml数据所需要的依赖
+        implementation(libraries.'jackson-dataformat-xml');
+        implementation(libraries.'jackson-databind');
+        implementation(libraries.'jackson-annotations');
+        implementation(libraries.'jackson-core');
+        //返回PDF数据所需要的依赖
+        implementation(libraries.'itextpdf');
+        implementation(libraries.'easypoi-spring-boot-starter');
+
+
     }
+
 }
 project("mircoboot-common"){
     dependencies {
+        //implementation('org.springframework.boot:spring-boot-starter-web')//用该方式，依赖common模块的web模块无法使用到该依赖，必须用api
 
+        api 'org.springframework.boot:spring-boot-starter-web'
     }
 }
 

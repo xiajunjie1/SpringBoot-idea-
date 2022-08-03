@@ -1,0 +1,5 @@
+sources:
+  mysql: mysql://localhost:3306/mydb #自定义的信息（key为：sources.mysql，值为：内容）
+  redis: redis://localhost:6379/0 #自定义的信息
+  message: xia,jun,jie
+  infos: "{'xia':'夏','jun':'俊'}" #map集合
