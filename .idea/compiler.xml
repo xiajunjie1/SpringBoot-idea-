@@ -10,6 +10,7 @@
         </processorPath>
         <module name="Microboot.mircoboot-web.main" />
         <module name="Microboot.mircoboot-common.main" />
+        <module name="Microboot.microboot-thymeleaf.main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="17" />

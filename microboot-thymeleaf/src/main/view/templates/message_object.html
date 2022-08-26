@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Thymeleaf对象输出</title>
+</head>
+<body>
+<div th:object="${member}" > <!-- 此处引用了对象后，后面的属性前面就不用代member，直接用*代替-->
+  <div th:text="*{name}" />
+  <div th:text="*{age}" />
+  <div th:text="*{birthday}" />
+  <div th:text="*{salary}" />
+
+<hr />
+<!-- 对部分字段进行格式化 -->
+<div th:text="*{#numbers.formatCurrency(salary)}" />
+<div th:text="*{#dates.format(birthday,'yyyy-MM-dd hh:mm:ss')}" />
+</div>
+</body>
+</html>

@@ -2,4 +2,94 @@ sources:
   mysql: mysql://localhost:3306/mydb #自定义的信息（key为：sources.mysql，值为：内容）
   redis: redis://localhost:6379/0 #自定义的信息
   message: xia,jun,jie
-  infos: "{'xia':'夏','jun':'俊'}" #map集合
+ # infos: "{'xia':'夏','jun':'俊'}" #map集合
+  infos: #map形式进行配置
+    xia: 夏
+    jun: 俊
+
+
+object:
+  deptno: 10
+  deptname: 研发部
+  company:  #关联配置其他类的引用
+    cid: 10001
+    cname: Capsule
+  emps: #列表形式，在Spring中，列表和数组时等价的，所以也可以换成数组的形式
+    - emp:  #整体可以改成emp[0]: 的形式
+      empno: 123
+      ename: 卡卡罗特
+      job: 办事员
+    - emp: #emp[1]
+      empno: 124
+      ename: 贝吉塔
+      job: 部门经理
+
+#Tomcat Web环境配置
+server:
+  #port: 8888 #服务端运行的监听端口
+  servlet:
+    #context-path: /jay #设置子路径（上下文路径）
+    context-parameters:
+      name: xiajunjie
+
+#设置不同环境下，启用不同的配置
+#spring:
+ # profiles:
+  #  active: dev #默认启用后缀为dev yml文件，作为默认运行环境
+
+#打包后，运行springboot项目 ：java -jar 包名.jar --spring.profiles.active=test,来指定相应的profile环境
+
+
+#配置文件上传
+spring:
+  servlet:
+    multipart: #实现文件上传的配置
+      enabled: true #启用文件上传的支持，默认就是启用
+      max-file-size: 10MB #支持单个文件上传的最大长度
+      max-request-size: 20MB #每次请求允许上传的总长度
+      file-size-threshold: 512KB #每当达到512KB以后，写入磁盘
+      location: / #临时存储目录
+
+  mail:
+    host: smtp.qq.com
+    username: 953668865
+    password: vczywxnzljihbead #临时生成的密码
+    properties:
+      mail.smtp.auth: true #启用smtp的验证
+      mail.smtp.starttls.enable: true #启用smtp tls加密连接
+      mail.smtp.starttls.required: true #必须启用smtp tls加密连接
+
+management:
+  server:
+    port: 9090 #配置访问Actuator接口的端口
+  endpoints:
+    web:
+      exposure:
+        include: "*" #开放全部的微服务监控端口
+      base-path: /actuator #监控服务的父路径
+#显示健康信息的详情
+#  endpoint:
+#    health:
+#      show-details: always
+
+#此信息可在/actuator/info接口中被返回
+#info:
+#  app: #类型为map
+#    name: jayj-xia
+#    group: com.maker
+#    version: 2.4.5
+#    describe: 基于SpringBoot实现微服务的定义，用于实现XX的功能
+#    creator:
+#      name: xia
+
+#logging:
+#  level:
+#    root: info #基本的日志级别
+#    com.maker.action: trace #对单独一个包设置日志级别
+#  #file:
+#   # path: jay-logs #日志保存的路径
+#  #配置日志输出到控制台和文件的格式
+#  pattern:
+#    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger- %msg%n"
+#    #file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger- %msg%n"
+

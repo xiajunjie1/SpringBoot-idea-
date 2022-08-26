@@ -11,6 +11,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/microboot-thymeleaf" />
             <option value="$PROJECT_DIR$/mircoboot-common" />
             <option value="$PROJECT_DIR$/mircoboot-web" />
           </set>

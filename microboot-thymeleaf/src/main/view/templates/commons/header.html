@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<foot th:fragment="companyHeader(title,url)"><!-- 自定义元素 -->
+    <img th:src="@{/images/bg.jpg}" height="30px" />
+    <strong>
+        <span th:text="${title}"/>
+        <a th:href="${url}" >百度</a>
+    </strong>
+</foot>

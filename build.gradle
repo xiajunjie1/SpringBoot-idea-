@@ -113,19 +113,35 @@ subprojects {//子模块
 project("mircoboot-web"){
     dependencies {
         implementation(project(':mircoboot-common'))
+        implementation('org.springframework.boot:spring-boot-starter-aop');
+        //implementation('org.springframework.boot:spring-boot-starter-mail');
+        implementation('org.springframework.boot:spring-boot-starter-actuator');
         //implementation('org.springframework.boot:spring-boot-starter-web')
         //返回xml数据所需要的依赖
+        /*
         implementation(libraries.'jackson-dataformat-xml');
         implementation(libraries.'jackson-databind');
         implementation(libraries.'jackson-annotations');
         implementation(libraries.'jackson-core');
+
         //返回PDF数据所需要的依赖
+         */
         implementation(libraries.'itextpdf');
         implementation(libraries.'easypoi-spring-boot-starter');
+        implementation(libraries.'hibernate-validator')
+        //引入Prometheus组件
+        implementation(libraries.'micrometer-registry-prometheus')
 
 
     }
 
+}
+
+project("microboot-thymeleaf"){
+    dependencies {
+        implementation(project(":mircoboot-common"));
+        implementation "org.springframework.boot:spring-boot-starter-thymeleaf";
+    }
 }
 project("mircoboot-common"){
     dependencies {

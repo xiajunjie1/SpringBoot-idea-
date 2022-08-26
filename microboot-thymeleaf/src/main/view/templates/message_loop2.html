@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>迭代map集合</title>
+</head>
+<body>
+<table border="1px">
+  <thead>
+  <tr>
+    <td>No</td>
+    <td>Key</td>
+    <td>姓名</td>
+    <td>年龄</td>
+    <td>出生日期</td>
+    <td>工资</td>
+
+  </tr>
+  </thead>
+  <tbody>
+  <!-- 迭代list -->
+  <tr th:each="memberEntry,memberStat:${maps}">
+    <td th:text="${memberStat.index+1}" />
+    <td th:text="${memberEntry.key}" />
+    <td th:text="${memberEntry.value.name}" />
+    <td th:text="${memberEntry.value.age}" />
+    <td th:text="${memberEntry.value.birthday}" />
+    <td th:text="${#numbers.formatCurrency(memberEntry.value.salary)}" />
+  </tr>
+  </tbody>
+</table>
+</body>
+</html>

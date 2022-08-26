@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Thymeleaf数据迭代</title>
+</head>
+<body>
+    <table border="1px">
+        <thead>
+        <tr>
+            <td>No</td>
+            <td>姓名</td>
+            <td>年龄</td>
+            <td>出生日期</td>
+            <td>工资</td>
+
+        </tr>
+        </thead>
+        <tbody>
+            <!-- 迭代list -->
+            <tr th:each="member,memberStat:${mlist}">
+                <td th:text="${memberStat.index+1}" />
+                <td th:text="${member.name}" />
+                <td th:text="${member.age}" />
+                <td th:text="${member.birthday}" />
+                <td th:text="${#numbers.formatCurrency(member.salary)}" />
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

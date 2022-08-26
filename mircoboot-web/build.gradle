@@ -1,10 +1,19 @@
 plugins {
     id 'java'
+    id 'war'
 }
 
 group 'com.jay'
 version '1.0-SNAPSHOT'
 
+bootJar {
+    //根据开发者的需要，可以自定义一些打包后的配置项，如：后缀，版本号，执行类
+    archiveClassifier = 'jayj';//打包文件加一个后缀
+    archiveBaseName = 'springboot-xia';//设置打包文件的名称
+    archiveVersion=project_version;
+    mainClassName='com.maker.StartSpringBoot'//程序启动类，可省略
+
+}
 repositories {
     mavenCentral()
 }

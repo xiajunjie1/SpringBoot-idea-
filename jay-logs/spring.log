@@ -1,0 +1,863 @@
+2022-08-21 11:22:12 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:22:12 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:22:12 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-21 11:22:12 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-21 11:22:15 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:22:16 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:22:16 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:22:16 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:22:16 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 3901 ms
+2022-08-21 11:22:16 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:22:17 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:22:17 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:22:17 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:22:18 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:22:18 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 7.138 seconds (JVM running for 8.121)
+2022-08-21 11:22:32 [http-nio-8080-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-21 11:22:32 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2022-08-21 11:22:32 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 3 ms
+2022-08-21 11:22:32 [http-nio-8080-exec-2] ERROR com.maker.action.MessageAction- 获取到的信息是测试数据
+2022-08-21 11:22:32 [http-nio-8080-exec-2] WARN  com.maker.action.MessageAction- 获取到的信息是测试数据
+2022-08-21 11:22:32 [http-nio-8080-exec-2] INFO  com.maker.action.MessageAction- 获取到的信息是测试数据
+2022-08-21 11:22:32 [http-nio-8080-exec-2] DEBUG com.maker.action.MessageAction- 获取到的信息是测试数据
+2022-08-21 11:22:32 [http-nio-8080-exec-2] TRACE com.maker.action.MessageAction- 获取到的信息是测试数据
+2022-08-21 11:24:34 [Thread-5] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:24:34 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:24:34 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:24:35 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:24:35 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:24:35 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:24:35 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:24:35 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1305 ms
+2022-08-21 11:24:36 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:24:36 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:24:36 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:24:36 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:24:37 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:24:37 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 2.444 seconds (JVM running for 146.998)
+2022-08-21 11:24:37 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:24:38 [Thread-8] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:24:38 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:24:38 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:24:39 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:24:39 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:24:39 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:24:39 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:24:39 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1308 ms
+2022-08-21 11:24:40 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:24:40 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:24:40 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:24:40 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:24:40 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:24:40 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 2.338 seconds (JVM running for 150.906)
+2022-08-21 11:24:40 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:26:08 [Thread-13] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:26:09 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:26:09 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:26:09 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:26:09 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:26:09 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:26:09 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:26:09 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 919 ms
+2022-08-21 11:26:10 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:26:10 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:26:10 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:26:10 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:26:10 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:26:10 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.714 seconds (JVM running for 240.649)
+2022-08-21 11:26:10 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:26:12 [Thread-18] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:26:12 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:26:12 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:26:13 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:26:13 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:26:13 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:26:13 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:26:13 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 938 ms
+2022-08-21 11:26:13 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:26:13 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:26:13 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:26:13 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:26:13 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:26:13 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.651 seconds (JVM running for 243.845)
+2022-08-21 11:26:13 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:36:29 [Thread-23] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:36:29 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:36:29 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:36:31 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:36:31 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:36:31 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:36:31 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:36:31 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1873 ms
+2022-08-21 11:36:31 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:36:31 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:36:32 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:36:32 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:36:32 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:36:32 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 3.15 seconds (JVM running for 862.407)
+2022-08-21 11:36:32 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:36:35 [Thread-28] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:36:35 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:36:35 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:36:37 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:36:37 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:36:37 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:36:37 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:36:37 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 2404 ms
+2022-08-21 11:36:38 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:36:38 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:36:38 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:36:38 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:36:38 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:36:38 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 3.693 seconds (JVM running for 868.821)
+2022-08-21 11:36:38 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:36:45 [Thread-33] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:36:45 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:36:45 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:36:47 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:36:47 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:36:47 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:36:47 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:36:47 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1844 ms
+2022-08-21 11:36:48 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:36:48 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:36:49 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:36:49 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:36:49 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:36:49 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 3.323 seconds (JVM running for 879.124)
+2022-08-21 11:36:49 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:36:52 [Thread-38] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:36:52 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:36:52 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:36:54 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:36:54 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:36:54 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:36:54 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:36:54 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1481 ms
+2022-08-21 11:36:54 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:36:55 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:36:55 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:36:55 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:36:55 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:36:55 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 2.594 seconds (JVM running for 885.47)
+2022-08-21 11:36:55 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:37:00 [Thread-43] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:37:00 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:37:00 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:37:01 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:37:01 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:37:01 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:37:01 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:37:01 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1442 ms
+2022-08-21 11:37:02 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:37:02 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:37:02 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:37:03 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:37:03 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:37:03 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 2.715 seconds (JVM running for 893.042)
+2022-08-21 11:37:03 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:37:06 [Thread-48] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:37:06 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:37:06 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:37:08 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:37:08 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:37:08 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:37:08 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:37:08 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1482 ms
+2022-08-21 11:37:08 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:37:09 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:37:09 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:37:09 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:37:09 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:37:09 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 2.965 seconds (JVM running for 899.841)
+2022-08-21 11:37:09 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:37:16 [Thread-53] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:37:16 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:37:16 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:37:18 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:37:18 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:37:18 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:37:18 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:37:18 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1610 ms
+2022-08-21 11:37:18 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:37:19 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:37:19 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:37:19 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:37:19 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:37:19 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 2.746 seconds (JVM running for 909.552)
+2022-08-21 11:37:19 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:37:23 [Thread-58] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:37:23 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:37:23 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:37:24 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:37:24 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:37:24 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:37:24 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:37:24 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 936 ms
+2022-08-21 11:37:24 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:37:24 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:37:25 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:37:25 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:37:25 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:37:25 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.84 seconds (JVM running for 915.305)
+2022-08-21 11:37:25 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:37:31 [Thread-63] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:37:32 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:37:32 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:37:32 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:37:32 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:37:32 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:37:32 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:37:32 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 727 ms
+2022-08-21 11:37:33 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:37:33 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:37:33 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:37:33 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:37:33 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:37:33 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.428 seconds (JVM running for 923.473)
+2022-08-21 11:37:33 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:37:36 [Thread-68] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:37:36 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:37:36 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:37:36 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:37:36 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:37:36 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:37:36 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:37:36 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 706 ms
+2022-08-21 11:37:37 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:37:37 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:37:37 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:37:37 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:37:37 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:37:37 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.248 seconds (JVM running for 927.352)
+2022-08-21 11:37:37 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:37:42 [Thread-73] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:37:42 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:37:42 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:37:42 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:37:42 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:37:42 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:37:42 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:37:42 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 683 ms
+2022-08-21 11:37:43 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:37:43 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:37:43 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:37:43 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:37:43 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:37:43 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.462 seconds (JVM running for 933.526)
+2022-08-21 11:37:43 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:37:45 [Thread-78] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:37:45 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:37:45 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:37:45 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:37:45 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:37:45 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:37:45 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:37:45 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 704 ms
+2022-08-21 11:37:46 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:37:46 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:37:46 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:37:46 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:37:46 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:37:46 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.411 seconds (JVM running for 936.592)
+2022-08-21 11:37:46 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:37:51 [Thread-83] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:37:51 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:37:51 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:37:52 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:37:52 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:37:52 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:37:52 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:37:52 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 641 ms
+2022-08-21 11:37:52 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:37:52 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:37:52 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:37:52 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:37:52 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:37:52 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.204 seconds (JVM running for 942.557)
+2022-08-21 11:37:52 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:37:54 [Thread-88] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:37:54 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:37:54 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:37:54 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:37:54 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:37:54 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:37:54 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:37:54 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 646 ms
+2022-08-21 11:37:54 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:37:55 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:37:55 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:37:55 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:37:55 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:37:55 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.176 seconds (JVM running for 945.349)
+2022-08-21 11:37:55 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:38:01 [Thread-93] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:38:01 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:38:01 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:38:01 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:38:01 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:38:01 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:38:01 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:38:01 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 669 ms
+2022-08-21 11:38:01 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:38:02 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:38:02 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:38:02 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:38:02 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:38:02 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.364 seconds (JVM running for 952.498)
+2022-08-21 11:38:02 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:38:03 [Thread-98] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:38:04 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:38:04 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:38:04 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:38:04 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:38:04 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:38:04 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:38:04 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 709 ms
+2022-08-21 11:38:04 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:38:05 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:38:05 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:38:05 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:38:05 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:38:05 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.378 seconds (JVM running for 955.451)
+2022-08-21 11:38:05 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:38:10 [Thread-103] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:38:10 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:38:10 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:38:10 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:38:10 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:38:10 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:38:10 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:38:10 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 610 ms
+2022-08-21 11:38:10 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:38:11 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:38:11 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:38:11 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:38:11 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:38:11 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.198 seconds (JVM running for 961.331)
+2022-08-21 11:38:11 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:38:13 [Thread-108] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:38:13 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:38:13 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:38:14 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:38:14 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:38:14 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:38:14 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:38:14 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 780 ms
+2022-08-21 11:38:14 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:38:15 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:38:15 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:38:15 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:38:15 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:38:15 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.414 seconds (JVM running for 965.33)
+2022-08-21 11:38:15 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:38:20 [Thread-113] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:38:20 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:38:20 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:38:20 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:38:20 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:38:20 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:38:20 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:38:20 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 627 ms
+2022-08-21 11:38:20 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:38:21 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:38:21 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:38:21 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:38:21 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:38:21 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.19 seconds (JVM running for 971.296)
+2022-08-21 11:38:21 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:38:22 [Thread-118] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:38:23 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:38:23 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:38:23 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:38:23 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:38:23 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:38:23 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:38:23 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 594 ms
+2022-08-21 11:38:23 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:38:23 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:38:24 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:38:24 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:38:24 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:38:24 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.096 seconds (JVM running for 974.049)
+2022-08-21 11:38:24 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:38:27 [Thread-123] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:38:27 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:38:27 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:38:28 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:38:28 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:38:28 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:38:28 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:38:28 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 727 ms
+2022-08-21 11:38:28 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:38:28 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:38:28 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:38:28 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:38:28 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:38:28 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.175 seconds (JVM running for 978.913)
+2022-08-21 11:38:28 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:38:31 [Thread-128] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:38:31 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:38:31 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:38:32 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:38:32 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:38:32 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:38:32 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:38:32 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 629 ms
+2022-08-21 11:38:32 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:38:32 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:38:32 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:38:32 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:38:32 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:38:32 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.094 seconds (JVM running for 982.688)
+2022-08-21 11:38:32 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:38:37 [Thread-133] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:38:37 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:38:37 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:38:38 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:38:38 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:38:38 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:38:38 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:38:38 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1056 ms
+2022-08-21 11:38:38 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:38:39 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:38:39 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:38:39 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:38:39 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:38:39 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.961 seconds (JVM running for 989.535)
+2022-08-21 11:38:39 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:38:42 [Thread-138] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:38:42 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:38:42 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:38:43 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:38:43 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:38:43 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:38:43 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:38:43 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1281 ms
+2022-08-21 11:38:43 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:38:43 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:38:44 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:38:44 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:38:44 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:38:44 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.976 seconds (JVM running for 994.192)
+2022-08-21 11:38:44 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:38:53 [Thread-143] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:38:53 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:38:53 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:38:53 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:38:53 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:38:53 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:38:53 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:38:53 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 527 ms
+2022-08-21 11:38:53 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:38:53 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:38:54 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:38:54 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:38:54 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:38:54 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.023 seconds (JVM running for 1004.175)
+2022-08-21 11:38:54 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:38:55 [Thread-148] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:38:55 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:38:55 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:38:56 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:38:56 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:38:56 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:38:56 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:38:56 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 615 ms
+2022-08-21 11:38:56 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:38:56 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:38:56 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:38:56 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:38:56 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:38:56 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.066 seconds (JVM running for 1006.878)
+2022-08-21 11:38:56 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:39:19 [Thread-153] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:39:19 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:39:19 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:39:19 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:39:19 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:39:19 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:39:19 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:39:19 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 555 ms
+2022-08-21 11:39:20 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:39:20 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:39:20 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:39:20 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:39:20 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:39:20 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.128 seconds (JVM running for 1030.476)
+2022-08-21 11:39:20 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:39:23 [Thread-158] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:39:23 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:39:23 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:39:24 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:39:24 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:39:24 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:39:24 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:39:24 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 999 ms
+2022-08-21 11:39:24 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:39:24 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:39:24 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:39:24 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:39:25 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:39:25 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.734 seconds (JVM running for 1034.993)
+2022-08-21 11:39:25 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:39:35 [Thread-163] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:39:35 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:39:35 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:39:36 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:39:36 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:39:36 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:39:36 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:39:36 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1064 ms
+2022-08-21 11:39:36 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:39:36 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:39:36 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:39:36 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:39:37 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:39:37 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.852 seconds (JVM running for 1047.014)
+2022-08-21 11:39:37 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:39:38 [Thread-168] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:39:38 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:39:38 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:39:39 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:39:39 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:39:39 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:39:39 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:39:39 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 914 ms
+2022-08-21 11:39:39 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:39:40 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:39:40 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:39:40 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:39:40 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:39:40 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.786 seconds (JVM running for 1050.534)
+2022-08-21 11:39:40 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:39:46 [Thread-173] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:39:46 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:39:46 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:39:47 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:39:47 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:39:47 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:39:47 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:39:47 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 800 ms
+2022-08-21 11:39:47 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:39:47 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:39:47 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:39:47 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:39:47 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:39:47 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.292 seconds (JVM running for 1057.659)
+2022-08-21 11:39:47 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:39:50 [Thread-178] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:39:50 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:39:50 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:39:50 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:39:50 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:39:50 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:39:51 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:39:51 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 606 ms
+2022-08-21 11:39:51 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:39:51 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:39:51 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:39:51 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:39:51 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:39:51 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.027 seconds (JVM running for 1061.374)
+2022-08-21 11:39:51 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:40:06 [Thread-183] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:40:06 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:40:06 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:40:07 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:40:07 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:40:07 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:40:07 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:40:07 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 469 ms
+2022-08-21 11:40:07 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:40:07 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:40:07 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:40:07 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:40:07 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:40:07 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.025 seconds (JVM running for 1077.594)
+2022-08-21 11:40:07 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:40:09 [Thread-188] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:40:09 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:40:09 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:40:09 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:40:09 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:40:09 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:40:10 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:40:10 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 738 ms
+2022-08-21 11:40:10 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:40:10 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:40:10 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:40:10 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:40:10 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:40:10 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.323 seconds (JVM running for 1080.57)
+2022-08-21 11:40:10 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:40:32 [Thread-193] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:40:33 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:40:33 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:40:33 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:40:33 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:40:33 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:40:33 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:40:33 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 608 ms
+2022-08-21 11:40:33 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:40:33 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:40:34 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:40:34 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:40:34 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:40:34 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.602 seconds (JVM running for 1104.603)
+2022-08-21 11:40:34 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:40:35 [Thread-198] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:40:36 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:40:36 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:40:37 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:40:37 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:40:37 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:40:37 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:40:37 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 827 ms
+2022-08-21 11:40:37 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:40:37 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:40:37 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:40:37 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:40:37 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:40:37 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.678 seconds (JVM running for 1107.842)
+2022-08-21 11:40:37 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:40:47 [Thread-203] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:40:48 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:40:48 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:40:49 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:40:49 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:40:49 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:40:49 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:40:49 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1410 ms
+2022-08-21 11:40:49 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:40:49 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:40:50 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:40:50 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:40:50 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:40:50 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 2.154 seconds (JVM running for 1120.165)
+2022-08-21 11:40:50 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:40:52 [Thread-208] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:40:53 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:40:53 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:40:54 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:40:54 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:40:54 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:40:54 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:40:54 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1304 ms
+2022-08-21 11:40:54 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:40:54 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:40:55 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:40:55 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:40:55 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:40:55 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 2.301 seconds (JVM running for 1125.351)
+2022-08-21 11:40:55 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:41:07 [Thread-213] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:41:07 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:41:07 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:41:08 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:41:08 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:41:08 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:41:09 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:41:09 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1328 ms
+2022-08-21 11:41:09 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:41:09 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:41:09 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:41:09 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:41:09 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:41:09 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 2.187 seconds (JVM running for 1139.793)
+2022-08-21 11:41:09 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:41:13 [Thread-218] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:41:13 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:41:13 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:41:14 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:41:14 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:41:14 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:41:14 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:41:14 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 887 ms
+2022-08-21 11:41:14 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:41:14 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:41:15 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:41:15 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:41:15 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:41:15 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.629 seconds (JVM running for 1145.295)
+2022-08-21 11:41:15 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:41:22 [Thread-223] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:41:22 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:41:22 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:41:23 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:41:23 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:41:23 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:41:23 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:41:23 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 883 ms
+2022-08-21 11:41:23 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:41:23 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:41:24 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:41:24 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:41:24 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:41:24 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.72 seconds (JVM running for 1154.087)
+2022-08-21 11:41:24 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:41:26 [Thread-228] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:41:26 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:41:26 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:41:27 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:41:27 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:41:27 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:41:27 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:41:27 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 798 ms
+2022-08-21 11:41:28 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:41:28 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:41:28 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:41:28 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:41:28 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:41:28 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.839 seconds (JVM running for 1158.723)
+2022-08-21 11:41:28 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:41:35 [Thread-233] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:41:35 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:41:35 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:41:36 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:41:36 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:41:36 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:41:36 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:41:36 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 603 ms
+2022-08-21 11:41:36 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:41:36 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:41:36 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:41:36 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:41:37 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:41:37 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.358 seconds (JVM running for 1166.994)
+2022-08-21 11:41:37 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:41:38 [Thread-238] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:41:38 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:41:38 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:41:39 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:41:39 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:41:39 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:41:39 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:41:39 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 455 ms
+2022-08-21 11:41:39 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:41:39 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:41:39 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:41:39 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:41:39 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:41:39 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 0.865 seconds (JVM running for 1169.514)
+2022-08-21 11:41:39 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:41:49 [Thread-243] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:41:49 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:41:49 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:41:50 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:41:50 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:41:50 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:41:50 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:41:50 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 524 ms
+2022-08-21 11:41:50 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:41:50 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:41:50 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:41:50 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:41:50 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:41:50 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 0.938 seconds (JVM running for 1180.546)
+2022-08-21 11:41:50 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:41:53 [Thread-248] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:41:53 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:41:53 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:41:53 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:41:53 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:41:53 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:41:53 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:41:53 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 477 ms
+2022-08-21 11:41:53 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:41:54 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:41:54 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:41:54 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:41:54 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:41:54 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.176 seconds (JVM running for 1184.417)
+2022-08-21 11:41:54 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:42:05 [Thread-253] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:42:05 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:42:05 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:42:06 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:42:06 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:42:06 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:42:06 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:42:06 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 751 ms
+2022-08-21 11:42:06 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:42:06 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:42:06 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:42:06 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:42:06 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:42:06 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.357 seconds (JVM running for 1196.873)
+2022-08-21 11:42:06 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:42:09 [Thread-258] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:42:09 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:42:09 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:42:09 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:42:09 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:42:09 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:42:10 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:42:10 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 476 ms
+2022-08-21 11:42:10 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:42:10 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:42:10 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:42:10 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:42:10 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:42:10 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 0.93 seconds (JVM running for 1200.443)
+2022-08-21 11:42:10 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:42:25 [Thread-263] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:42:25 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:42:25 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:42:26 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:42:26 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:42:26 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:42:26 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:42:26 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 603 ms
+2022-08-21 11:42:26 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:42:26 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:42:26 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:42:26 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:42:26 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:42:26 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.11 seconds (JVM running for 1216.726)
+2022-08-21 11:42:26 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:42:28 [Thread-268] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:42:28 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:42:28 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:42:28 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:42:28 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:42:28 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:42:29 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:42:29 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 532 ms
+2022-08-21 11:42:29 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:42:29 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:42:29 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:42:29 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:42:29 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:42:29 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 1.014 seconds (JVM running for 1219.436)
+2022-08-21 11:42:29 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:42:51 [Thread-273] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:42:52 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:42:52 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:42:53 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:42:53 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:42:53 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:42:53 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:42:53 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1087 ms
+2022-08-21 11:42:53 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:42:54 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:42:54 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:42:54 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:42:54 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:42:54 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 2.201 seconds (JVM running for 1244.418)
+2022-08-21 11:42:54 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2022-08-21 11:42:58 [Thread-278] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:42:58 [restartedMain] INFO  com.maker.StartSpringBoot- Starting StartSpringBoot using Java 17.0.3.1 on LAPTOP-Q84OEDON with PID 5648 (E:\IdeaProject\Microboot\mircoboot-web\build\classes\java\main started by lenovo in E:\IdeaProject\Microboot)
+2022-08-21 11:42:58 [restartedMain] INFO  com.maker.StartSpringBoot- No active profile set, falling back to default profiles: default
+2022-08-21 11:42:59 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2022-08-21 11:42:59 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2022-08-21 11:42:59 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-08-21 11:42:59 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2022-08-21 11:42:59 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 924 ms
+2022-08-21 11:42:59 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHttpRequestHandler- Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+2022-08-21 11:42:59 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-21 11:43:00 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2022-08-21 11:43:00 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver- Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-08-21 11:43:00 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-21 11:43:00 [restartedMain] INFO  com.maker.StartSpringBoot- Started StartSpringBoot in 2.028 seconds (JVM running for 1250.338)
+2022-08-21 11:43:00 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged

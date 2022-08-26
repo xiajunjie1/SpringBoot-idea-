@@ -1,4 +1,5 @@
 rootProject.name = 'Microboot'
 include 'mircoboot-common'
 include 'mircoboot-web'
+include 'microboot-thymeleaf'
 

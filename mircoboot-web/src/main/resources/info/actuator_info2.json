@@ -1,0 +1,80 @@
+{
+  "_links": {
+    "self": {
+      "href": "http://localhost:8080/actuator",
+      "templated": false
+    },
+    "beans": { //Spring容器之中全部的bean对象
+      "href": "http://localhost:8080/actuator/beans",
+      "templated": false
+    },
+    "caches-cache": { //缓存配置
+      "href": "http://localhost:8080/actuator/caches/{cache}",
+      "templated": true
+    },
+    "caches": {
+      "href": "http://localhost:8080/actuator/caches",
+      "templated": false
+    },
+    "health-path": {
+      "href": "http://localhost:8080/actuator/health/{*path}",
+      "templated": true
+    },
+    "health": {
+      "href": "http://localhost:8080/actuator/health",
+      "templated": false
+    },
+    "info": {
+      "href": "http://localhost:8080/actuator/info",
+      "templated": false
+    },
+    "conditions": {
+      "href": "http://localhost:8080/actuator/conditions",
+      "templated": false
+    },
+    "configprops": { //配置属性
+      "href": "http://localhost:8080/actuator/configprops",
+      "templated": false
+    },
+    "env": { //上下文环境
+      "href": "http://localhost:8080/actuator/env",
+      "templated": false
+    },
+    "env-toMatch": {
+      "href": "http://localhost:8080/actuator/env/{toMatch}",
+      "templated": true
+    },
+    "loggers": { //日志数据
+      "href": "http://localhost:8080/actuator/loggers",
+      "templated": false
+    },
+    "loggers-name": {
+      "href": "http://localhost:8080/actuator/loggers/{name}",
+      "templated": true
+    },
+    "heapdump": { //堆内存信息
+      "href": "http://localhost:8080/actuator/heapdump",
+      "templated": false
+    },
+    "threaddump": { //线程信息
+      "href": "http://localhost:8080/actuator/threaddump",
+      "templated": false
+    },
+    "metrics": { //度量衡
+      "href": "http://localhost:8080/actuator/metrics",
+      "templated": false
+    },
+    "metrics-requiredMetricName": {
+      "href": "http://localhost:8080/actuator/metrics/{requiredMetricName}",
+      "templated": true
+    },
+    "scheduledtasks": {
+      "href": "http://localhost:8080/actuator/scheduledtasks",
+      "templated": false
+    },
+    "mappings": {  //映射路径
+      "href": "http://localhost:8080/actuator/mappings",
+      "templated": false
+    }
+  }
+}

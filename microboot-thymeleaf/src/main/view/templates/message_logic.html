@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Thymeleaf逻辑处理</title>
+</head>
+<body>
+<!-- if else 操作 -->
+<div th:object="${member}">
+    <div th:if="*{age lt 18}">
+        <!-- 年龄小于18 -->
+        <h2>你还未成年</h2>
+    </div>
+    <div th:unless="*{age lt 18}" >
+        <!-- 除非年龄小于18才不显示 -->
+        <h2>你已经成年了</h2>
+    </div>
+
+    <hr/>
+    <!-- 三元运算符 -->
+    <h2 th:text="*{name == 'xia'?'欢迎xia':'不认识的人'}"></h2>
+    <hr/>
+    <!-- switch语法 -->
+    <div th:switch="*{name}">
+        <span th:case="xia">xia is coming</span>
+        <span th:case="jun">jun is coming</span>
+        <span th:case="jie">jie is coming</span>
+        <!--所以条件都不满足，执行case=* -->
+        <span th:case="*">unkown is coming</span>
+
+    </div>
+</div>
+</body>
+</html>

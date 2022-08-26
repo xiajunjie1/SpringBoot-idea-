@@ -1,0 +1,24 @@
+{
+  "_links": { //当前连接
+    "self": {
+      "href": "http://localhost:8080/actuator",
+      "templated": false
+    },
+    "health": { //健康信息
+      "href": "http://localhost:8080/actuator/health",
+      "templated": false
+    },
+    "health-path": { //健康信息的监控路径
+      "href": "http://localhost:8080/actuator/health/{*path}",
+      "templated": true
+    },
+    "info": { //微服务的信息
+      "href": "http://localhost:8080/actuator/info",
+      "templated": false
+    }
+
+
+
+  }
+}
+

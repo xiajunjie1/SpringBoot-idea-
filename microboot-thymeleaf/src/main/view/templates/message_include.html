@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf导入操作</title>
+</head>
+<body>
+    <!-- 使用replace，header页面中的foot标签会替换掉div -->
+    <div th:replace="@{/commons/header}::companyHeader('Test','https://www.baidu.com')"></div>
+    <hr />
+    <!-- 使用include包含，此div会替换原本页面中的foot标签-->
+    <div th:include="@{commons/footer}::companyHeader" th:with="title='include_test',url='https://www.163.com'"></div>
+</body>
+</html>

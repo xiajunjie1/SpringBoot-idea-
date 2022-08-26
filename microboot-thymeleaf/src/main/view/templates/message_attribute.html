@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>内置对象</title>
+</head>
+<body>
+<!-- Thymeleaf中的环境对象 -->
+<h2 th:text="'{request范围}'+${message}"/>
+<h2 th:text="'{session范围}'+${session.message}" />
+<h2 th:text="'{application范围}'+${application.message}" />
+
+<!-- Thymeleaf的另一种调用内置对象的办法 -->
+<h2 th:text="${ #httpServletRequest.getRemoteAddr()}" />
+<h2 th:text="${ #httpSession.getId()}" />
+<h2 th:text="${ #httpServletRequest.getServletContext().getVirtualServerName()}" />
+</body>
+</html>

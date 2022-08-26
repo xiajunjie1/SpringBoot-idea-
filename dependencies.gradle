@@ -10,6 +10,8 @@ ext.versions = [    // 定义所有要使用的版本号
                     jackson         :'2.12.3',//处理返回xml数据的Jackson组件依赖库
                     itextpdf        :'5.5.13',//处理pdf的组件的依赖库
                     easypoi         :'4.4.0',//处理excel的组件的依赖库
+                    hvalidator      :'6.2.0.Final',//Hibernate-validator验证版本号
+                    prometheus      :'1.7.3',//Prometheus组件的依赖库
 ]
 ext.libraries = [   // 定义所有的依赖库
 
@@ -27,6 +29,8 @@ ext.libraries = [   // 定义所有的依赖库
                     'jackson-core':"com.fasterxml.jackson.core:jackson-core:${versions.jackson}",
                     'itextpdf':"com.itextpdf:itextpdf:${versions.itextpdf}",
                     'easypoi-spring-boot-starter':"cn.afterturn:easypoi-spring-boot-starter:${versions.easypoi}",
+                    'hibernate-validator':"org.hibernate.validator:hibernate-validator:${versions.hvalidator}",
+                    'micrometer-registry-prometheus':"io.micrometer:micrometer-registry-prometheus:${versions.prometheus}",
 ]
 
 //修改build.gradle配置文件，引入相关的子配置文件
